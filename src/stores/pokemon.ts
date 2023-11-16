@@ -32,7 +32,7 @@ export const pokemonStore = defineStore('pokemon', {
   },
   actions: {
     async loadPokedex() {
-      this.pokemon = await d3.csv('../data/pokemon.csv');
+      this.pokemon = await d3.csv('./data/pokemon.csv');
     }
   },
   getters: {
