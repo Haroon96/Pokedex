@@ -147,7 +147,7 @@ function plot() {
         .attr("y", margin)
         .attr("width", width)
         .attr("height", height)
-        .attr("xlink:href", `https://haroon96.github.io/Pokemon/${formatNumber(pokemon.value.Number)}.png`);
+        .attr("xlink:href", `https://haroon96.github.io/Pokedex/images/${formatNumber(pokemon.value.Number)}.png`);
 
     svg.append('g')
         .selectAll('dot')

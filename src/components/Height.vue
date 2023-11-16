@@ -109,7 +109,7 @@ function plot() {
         .attr("width", d => yScale(0) - yScale(d) + 100)
         .attr("height", d => yScale(0) - yScale(d))
         .attr("transform", d => `translate(20,0)`)
-        .attr("xlink:href", (d, ind) => `https://haroon96.github.io/Pokemon/${formatNumber(filtered[ind].Number)}.png`);
+        .attr("xlink:href", (d, ind) => `https://haroon96.github.io/Pokedex/images/${formatNumber(filtered[ind].Number)}.png`);
 
     // pokemon name
     bars.enter()
